@@ -3,23 +3,23 @@
 <header>
     <title> GO Supplements | Inicio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta description="Comenzando en frontend.">
-    <link rel="icon" type="image/x-icon" href="https://designshack.net/wp-content/uploads/hotels-fav.jpg">
-    <link rel="stylesheet" href="style.css">
+    <meta description="Los mejores suplementos deportivos en la República Argentina.">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="src/style.css">
     <script src="https://kit.fontawesome.com/36c1353edc.js" crossorigin="anonymous"></script>
     <!-- Cargando SWAL para alertas -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </header>
 
-    <!-- Menu -->
-    <nav>
-        <a href="#">INICIO</a>
-        <a href="#store">TIENDA</a>
-        <a href="#stats">ESTADISTICAS</a>
-        <a href="#">FEEDBACK</a>
-        <a href="#">REDES</a>
-        <div class="animation start-home"></div>
-    </nav>
+<!-- Menu -->
+<nav>
+    <a href="#">INICIO</a>
+    <a href="#store">TIENDA</a>
+    <a href="#stats">ESTADISTICAS</a>
+    <a href="#">FEEDBACK</a>
+    <a href="#">REDES</a>
+    <div class="animation start-home"></div> <!-- Para anims del menú -->
+</nav>
 </ul>
 <hr>
 <br>
@@ -31,10 +31,10 @@
     <h4>Disfruta de los mejores suplementos en Argentina. Calidad europea a precios accesibles. Potencia tu rendimiento
         y obtén resultados increibles o te devolvemos tu dinero. </h4>
     <a href="#store"><button class="glow-on-hover" type="button"><i class="fa-solid fa-cart-arrow-down"></i>COMPRA
-            AHORA</button></a>
+            AHORA</button></a> <!-- Botoncito rainbow (Cortesia de foro inglés.) -->
 </div>
 <br>
-<!-- Utilizando Sweet Alert para mostrar un "carrito" cuando se clickea "comprar" en un producto de la store :) -->
+<!-- Stats con tabla -->
 <div class="stats" id="stats">
     <br>
     <h2 class=test>Nuestras estadísticas</h2>
@@ -134,7 +134,7 @@
 
 
 
-<h2 class=test>Nuestros productos</h2>
+<h2 class=test>Nuestros productos</h2> <!-- Scroll no responsivo pero muy bonito. -->
 <div class="slider" id="store">
     <input type="radio" name="item" id="t-1">
     <input type="radio" name="item" id="t-2">
@@ -216,14 +216,16 @@
 <div class="footer">
     <br>
     <ul>
+        <!-- Lista para iconos de RR.SS en Footer -->
         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
         <li><a href="mailto:blablabla@gmail.com"><i class="fa fa-envelope"></i></a></li>
     </ul>
-    <h3 class="footerh3">© GO Supplements - 2022</h3>
-    <h3 class="footerh3"><a href="Contact">Contact</a></h3>
+    <h3 class="footerh3">© GO Supplements - 2022</h3> <!-- Copyright -->
+    <h3 class="footerh3"><a href="#contact">Contact</a></h3> <!-- Algún dia dirigirá a un form :) -->
 
 </div>
+
 </html>
